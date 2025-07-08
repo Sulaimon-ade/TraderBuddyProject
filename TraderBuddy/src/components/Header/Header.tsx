@@ -7,8 +7,8 @@ function header() {
           <span>Trader</span>buddy
         </div>
         <div className="buttons">
-          <button>1</button>
-          <button>2</button>
+          <button className='loginBtn'>login</button>
+          <button className='signupBtn'>sign up</button>
         </div>
       </header>
     </>
