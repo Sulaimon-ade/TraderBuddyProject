@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #383636;
+  color: white;
+
+  .AppName {
+    font-size: large;
+
+    span {
+      font-size: 25px;
+      font-weight: bold;
+      background: linear-gradient(to right, #f97316, #ef4444);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+    }
+  }
+}

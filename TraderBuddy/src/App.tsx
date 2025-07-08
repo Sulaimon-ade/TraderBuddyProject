@@ -1,16 +1,12 @@
 // import { useState } from 'react'
 import './App.css'
+import Header from './components/Header/Header'
 
 function App() {
 
   return (
-    <>
-    <div className="card">
-      <header className="header">
-        this is the header
-      </header>
-    </div>
-    </>
+    /* Application Header */
+    <Header />
   )
 }
 
