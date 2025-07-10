@@ -1,0 +1,11 @@
+.trustees{
+  margin-left: 100px;
+  margin-top: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #f97316, #ef4444);
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  width: 80%;
+}

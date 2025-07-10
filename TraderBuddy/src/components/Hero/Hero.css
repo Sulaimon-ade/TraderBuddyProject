@@ -1,7 +1,7 @@
 .Hero {
-  max-width: 45%;
+  width: 80%;
   margin-top: 100px;
-  margin-left: 200px;
+  margin-left: 100px;
   display: flex;
   flex-direction: column;
   color: white;
@@ -16,6 +16,7 @@
   line-height: 1.2;
 
   span {
+    margin-left: inherit;
     background: linear-gradient(to right, #f97316, #ef4444);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -32,6 +33,24 @@
     border: none;
     border-radius: 10px;
     background: linear-gradient(to right, #f97316, #ef4444);
-    /* background-color: white; */
   }
+}
+
+@media only screen and (max-width:700px) {
+  .Hero {
+    display: block;
+    max-width: 45%;
+    margin-top: 35px;
+    margin-left: 60px;
+    flex-direction: column;
+    align-items: center;
+
+    .page-text {
+      font-size: 30px;
+    }
+    .welcome-text{
+      font-size: 15px;
+    }
+  }
+
 }
