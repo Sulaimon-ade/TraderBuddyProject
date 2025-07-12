@@ -3,13 +3,14 @@
 import './App.css'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
+import Card from './components/Cards/card'
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
-
+      <Card />
     </>
 
   )

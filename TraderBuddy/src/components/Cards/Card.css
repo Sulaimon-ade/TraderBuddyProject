@@ -1,0 +1,74 @@
+.cardSection {
+  width: 90%;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.firstCard {
+  margin-left: 5%;
+  width: 60%;
+  height: 35%;
+  margin-bottom: 20px;
+
+  .firstCardText {
+    background-color: transparent;
+    color: white;
+    margin-top: 30px;
+    margin-left: 2%;
+    width: 30%;
+    position: absolute;
+
+    h2 {
+      letter-spacing: -0.28px;
+      background-color: transparent;
+      font-size: 250%;
+      font-weight: bold;
+    }
+
+    p {
+      background-color: transparent;
+    }
+
+  }
+}
+
+.secondCard {
+  margin-left: 5%;
+  width: 60%;
+  height: 35%;
+  margin-bottom: 20px;
+
+  .secondCardText {
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    margin-top: 30px;
+    margin-left: 2%;
+    width: 30%;
+    position: absolute;
+
+    h2 {
+      letter-spacing: -0.28px;
+      background-color: transparent;
+      font-size: 250%;
+      font-weight: bold;
+    }
+
+    p {
+      background-color: transparent;
+    }
+
+  }
+}
+
+@media only screen and (max-width:700px) {
+  .firstCardText {
+    height: auto;
+    h2 {
+
+      font-size: 20px;
+    }
+
+  }
+}

@@ -1,7 +1,11 @@
 .Hero {
-  width: 80%;
+  margin-bottom: 50px;
+}
+
+.Hero1 {
+  width: 90%;
   margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 5%;
   display: flex;
   flex-direction: column;
   color: white;
@@ -51,18 +55,19 @@
     }
 
     .welcome-text {
-      font-size: 15px;
+      font-size: 12px;
     }
+
     button {
-    color: aliceblue;
-    font-size: 15px;
-    font-weight: bold;
-    width: 150px;
-    height: 30px;
-    border: none;
-    border-radius: 10px;
-    background: linear-gradient(to right, #f97316, #ef4444);
-  }
+      color: aliceblue;
+      font-size: 15px;
+      font-weight: bold;
+      width: 150px;
+      height: 30px;
+      border: none;
+      border-radius: 10px;
+      background: linear-gradient(to right, #f97316, #ef4444);
+    }
   }
 
 }

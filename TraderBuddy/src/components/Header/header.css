@@ -1,11 +1,17 @@
 .header {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.header1 {
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
 
   .AppName {
-    margin-left: 100px;
     font-size: large;
 
     span {
@@ -20,7 +26,6 @@
 }
 
 .buttons {
-  margin-right: 220px;
   display: flex;
   background-color: #1F2229;
   justify-content: space-between;
@@ -44,6 +49,7 @@
     width: 350px;
     font-size: 15px;
     border: none;
+    color: white;
     font-weight: bold;
     background: linear-gradient(to right, #FF782C, #CE2D14);
   }
