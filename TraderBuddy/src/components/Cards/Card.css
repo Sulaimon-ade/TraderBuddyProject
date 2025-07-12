@@ -14,9 +14,9 @@
   .firstCardText {
     background-color: transparent;
     color: white;
+    width: 100%;
     margin-top: 30px;
     margin-left: 2%;
-    width: 30%;
     position: absolute;
 
     h2 {
@@ -45,7 +45,6 @@
     color: white;
     margin-top: 30px;
     margin-left: 2%;
-    width: 30%;
     position: absolute;
 
     h2 {
@@ -63,12 +62,32 @@
 }
 
 @media only screen and (max-width:700px) {
-  .firstCardText {
-    height: auto;
-    h2 {
+  .firstCard {
+    margin-left: 5%;
+    width: 60%;
+    height: 35%;
+    margin-bottom: 20px;
 
-      font-size: 20px;
+    .firstCardText {
+      background-color: transparent;
+      color: white;
+      margin-top: 30px;
+      margin-left: 2%;
+      width: 100%;
+      position: absolute;
+
+      h2 {
+        width: 100%;
+        letter-spacing: -0.18px;
+        background-color: transparent;
+        font-size: 180%;
+        font-weight: bold;
+      }
+
+      p {
+        background-color: transparent;
+      }
+
     }
-
   }
 }

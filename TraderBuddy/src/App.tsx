@@ -3,7 +3,7 @@
 import './App.css'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
-import Card from './components/Cards/card'
+import Card from './components/Cards/Card'
 
 function App() {
   return (
