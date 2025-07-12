@@ -5,7 +5,7 @@ function Trustees() {
   return (
     <>
         <section className='trustees'>
-          <img src="./img/trustees.svg" alt="img" />
+          {/* <img src="./img/trustees.svg" alt="img" /> */}
         </section>
     </>
   )
